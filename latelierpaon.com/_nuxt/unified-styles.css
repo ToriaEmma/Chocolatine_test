@@ -88,38 +88,59 @@
   border-color: #ad1457 !important;
 }
 
-/* Styles pour les boutons roses */
-.btn-pink {
-  background-color: #e91e63;
-  color: white;
-  border: 2px solid #e91e63;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.btn-pink:hover {
-  background-color: #ad1457;
-  border-color: #ad1457;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(233, 30, 99, 0.3);
-}
-
 /* Mise à jour des classes violet existantes */
 .violet {
   color: #e91e63 !important;
 }
 
-/* Masquer le texte atelierpaon */
-.hide-atelierpaon {
+/* Masquer tous les logos et éléments de branding */
+.logo,
+.brand-logo,
+.header-logo,
+.nav-logo,
+[class*="logo"],
+[src*="logo"],
+img[alt*="logo"],
+img[alt*="Logo"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+/* Masquer spécifiquement les logos dans le header */
+header .logo,
+header img,
+.header img,
+.navbar img,
+.nav img {
   display: none !important;
 }
 
-/* Styles pour masquer des éléments spécifiques */
+/* Masquer les éléments contenant du texte de marque */
+.hide-atelierpaon,
 [data-text="atelierpaon"],
 .atelierpaon-text,
 .brand-text {
+  display: none !important;
+}
+
+/* Masquer tous les boutons */
+.btn,
+button,
+.button,
+[role="button"],
+.app-button,
+.AppButton {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Interface épurée - masquer les éléments de navigation */
+.nav,
+.navbar,
+.navigation,
+.menu,
+.header-nav {
   display: none !important;
 }
 
