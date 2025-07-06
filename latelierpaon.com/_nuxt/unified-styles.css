@@ -65,20 +65,62 @@
 }
 
 .bg-app-pink {
-  background-color: #e91e63;
+  background-color: #e91e63 !important;
 }
 
 .bg-app-pink-light {
-  background-color: #f8bbd9;
+  background-color: #f8bbd9 !important;
 }
 
 .bg-app-pink-dark {
+  background-color: #ad1457 !important;
+}
+
+.border-app-pink {
+  border-color: #e91e63 !important;
+}
+
+.border-app-pink-light {
+  border-color: #f8bbd9 !important;
+}
+
+.border-app-pink-dark {
+  border-color: #ad1457 !important;
+}
+
+/* Styles pour les boutons roses */
+.btn-pink {
+  background-color: #e91e63;
+  color: white;
+  border: 2px solid #e91e63;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-pink:hover {
   background-color: #ad1457;
+  border-color: #ad1457;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(233, 30, 99, 0.3);
 }
 
 /* Mise à jour des classes violet existantes */
 .violet {
   color: #e91e63 !important;
+}
+
+/* Masquer le texte atelierpaon */
+.hide-atelierpaon {
+  display: none !important;
+}
+
+/* Styles pour masquer des éléments spécifiques */
+[data-text="atelierpaon"],
+.atelierpaon-text,
+.brand-text {
+  display: none !important;
 }
 
 @keyframes fifth-entrance {
