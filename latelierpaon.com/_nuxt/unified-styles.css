@@ -1,4 +1,3 @@
-
 /* CSS unifié pour L'Atelier Paon */
 /* Utilisation d'un seul set d'assets avec variations CSS */
 
@@ -37,6 +36,49 @@
 .plan--fifth {
   animation: fade-in 2s ease-in-out both;
   transform-origin: bottom;
+}
+
+/* Couleurs personnalisées - Remplacement du violet par du rose */
+.text-app-violet {
+  color: #e91e63 !important; /* Rose Material Design */
+}
+
+.bg-app-violet {
+  background-color: #e91e63 !important;
+}
+
+.border-app-violet {
+  border-color: #e91e63 !important;
+}
+
+/* Variantes de rose pour plus de nuances */
+.text-app-pink {
+  color: #e91e63;
+}
+
+.text-app-pink-light {
+  color: #f8bbd9;
+}
+
+.text-app-pink-dark {
+  color: #ad1457;
+}
+
+.bg-app-pink {
+  background-color: #e91e63;
+}
+
+.bg-app-pink-light {
+  background-color: #f8bbd9;
+}
+
+.bg-app-pink-dark {
+  background-color: #ad1457;
+}
+
+/* Mise à jour des classes violet existantes */
+.violet {
+  color: #e91e63 !important;
 }
 
 @keyframes fifth-entrance {
